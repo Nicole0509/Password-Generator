@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #273549;
+    color: #ffffff;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.password-generator{
+     background-color: #1F2937;
+     height: 85%;
+     max-width: 500px;
+     width: 85%;
+     margin-top: 10vh;
+     padding: 40px 30px;
+     border-radius: 8px;
+}
+
+h2{
+    font-size: 27px;
+}
+
+span{
+    color: #4ADF86;
+}
+
+p{
+    color: #D5D4D8;
+    margin-top: -5vh;
+    font-size: 0.95em;
+    font-weight: lighter;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #10B981;
+    font-size: 0.75em;
+    font-weight: lighter;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    margin: 20px 0 40px 0;
+}
+
+.password{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 2px solid #2F3E53;
+}
+
+.passwords{
+    margin: 5px 0;
+    background-color: #273549; 
+    width: 225px;
+    height: 25px;
+    padding: 7px 10px;
+    text-align: center;
+    color: #4ADF86;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+#info-el{
+    text-align: center;
+    margin-top: 20px;
+    color: #D5D4D8;
+}
