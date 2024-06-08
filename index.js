@@ -25,7 +25,7 @@ function generatePassword(){
     } else{
         
         alert("We were unable to generate a password of " + numberOfCharacters + " character(s).")
- 
+        isNotEmpty = false
         password1.textContent = ""
         password2.textContent = ""
         infoEl.textContent =  ""
