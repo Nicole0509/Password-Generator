@@ -23,12 +23,9 @@ function generatePassword(){
         password2.textContent = result2
         infoEl.textContent = "  Click on the password to copy!"
     } else{
-        if (numberOfCharacters = ""){
-            alert("We were unable to generate a password of 0 character(s).")
-        } else{
-            alert("We were unable to generate a password of " + numberOfCharacters + " character(s).")
-        }
         
+        alert("We were unable to generate a password of " + numberOfCharacters + " character(s).")
+ 
         password1.textContent = ""
         password2.textContent = ""
         infoEl.textContent =  ""
