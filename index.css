@@ -10,6 +10,7 @@ body {
 .password-generator{
      background-color: #1F2937;
      height: 85%;
+     max-height: 380px;
      max-width: 500px;
      width: 85%;
      margin-top: 10vh;
@@ -34,10 +35,10 @@ p{
 
 button{
     width: 150px;
-    height: 30px;
+    height: 35px;
     color: #ffffff;
     background-color: #10B981;
-    font-size: 0.75em;
+    font-size: 0.85em;
     font-weight: lighter;
     padding: 5px 10px;
     border: none;
