@@ -85,57 +85,60 @@ button {
 
 /*responsive css*/
 
-@media (max-width: 821px) {
+/* Styles for typical iPad screen */
+@media (max-width: 768px) {
     .password-generator {
         margin: 0;
         width: 90%;
         height: auto;
         max-height: none; /* Allow height to adjust based on content */
-    }
-
-    p {
-        margin-top: 0;
-        font-size: 1em; /* Adjust font size */
-    }
-
-    .passwords {
-        width: calc(50% - 10px); /* Allow two columns of passwords */
+        padding: 20px; /* Adjust padding for smaller screens */
     }
 
     h2 {
         font-size: 24px; /* Adjust font size */
     }
 
-    button {
-        width: 100%; /* Button takes full width on smaller screens */
-    }
-}
-
-@media (max-width: 477px) {
-    .password-generator {
-        margin: 0;
-        width: 100%;
-        height: auto;
-        max-height: none;
-    }
-
     p {
-        margin-top: 0;
-        font-size: 1em;
+        font-size: 1em; /* Adjust font size */
     }
 
     .passwords {
-        width: 100%; /* Password boxes take full width on very small screens */
+        width: 100%; /* Full width for password boxes */
         margin: 5px 0; /* Adjust margin for spacing */
+    }
+
+    button {
+        width: 100%; /* Full width button */
+        height: 40px; /* Adjust height */
+    }
+}
+
+/* Styles for typical phone screen */
+@media (max-width: 480px) {
+    .password-generator {
+        margin: 0;
+        width: 95%;
+        height: auto;
+        max-height: none;
+        padding: 20px; /* Adjust padding for smaller screens */
     }
 
     h2 {
         font-size: 20px; /* Further adjust font size */
     }
 
+    p {
+        font-size: 0.95em; /* Adjust font size */
+    }
+
+    .passwords {
+        width: 100%; /* Full width for password boxes */
+        margin: 5px 0; /* Adjust margin for spacing */
+    }
+
     button {
-        width: 100%;
-        font-size: 1em; /* Adjust font size */
-        height: 40px; /* Adjust height for better tap target */
+        width: 100%; /* Full width button */
+        height: 40px; /* Adjust height */
     }
 }
