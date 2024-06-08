@@ -5,41 +5,35 @@ body {
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center; /* Added for vertical centering */
-    min-height: 100vh; /* Ensures body takes full height */
 }
 
-.password-generator {
-    background-color: #1F2937;
-    height: auto;
-    max-height: 380px;
-    max-width: 500px;
-    width: 85%;
-    margin-top: 10vh;
-    padding: 40px 30px;
-    border-radius: 8px;
-    box-sizing: border-box; /* Ensures padding is included in width/height */
+.password-generator{
+     background-color: #1F2937;
+     height: 85%;
+     max-height: 380px;
+     max-width: 500px;
+     width: 85%;
+     margin-top: 10vh;
+     padding: 40px 30px;
+     border-radius: 8px;
 }
 
-h2 {
+h2{
     font-size: 27px;
-    margin: 0; /* Added to reset default margin */
 }
 
-span {
+span{
     color: #4ADF86;
 }
 
-p {
+p{
     color: #D5D4D8;
     margin-top: -2vh;
     font-size: 0.95em;
     font-weight: lighter;
-    margin: 0; /* Reset margin */
-    margin-top: -10px; /* Adjusted margin to reduce gap */
 }
 
-button {
+button{
     width: 150px;
     height: 35px;
     color: #ffffff;
@@ -50,10 +44,9 @@ button {
     border: none;
     border-radius: 2px;
     margin: 20px 0 40px 0;
-    cursor: pointer; /* Added for better UX */
 }
 
-.password {
+.password{
     padding-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -61,9 +54,9 @@ button {
     border-top: 2px solid #2F3E53;
 }
 
-.passwords {
+.passwords{
     margin: 5px 0;
-    background-color: #273549;
+    background-color: #273549; 
     width: 225px;
     height: 25px;
     padding: 7px 10px;
@@ -72,73 +65,10 @@ button {
     font-weight: bold;
     font-size: 0.8em;
     border-radius: 5px;
-    display: flex;
-    align-items: center; /* Center text vertically */
-    justify-content: center; /* Center text horizontally */
 }
 
-#info-el {
+#info-el{
     text-align: center;
     margin-top: 20px;
     color: #D5D4D8;
-}
-
-/*responsive css*/
-
-/* Styles for typical iPad screen */
-@media (max-width: 768px) {
-    .password-generator {
-        margin: 0;
-        width: 90%;
-        height: auto;
-        max-height: none; /* Allow height to adjust based on content */
-        padding: 20px; /* Adjust padding for smaller screens */
-    }
-
-    h2 {
-        font-size: 24px; /* Adjust font size */
-    }
-
-    p {
-        font-size: 1em; /* Adjust font size */
-    }
-
-    .passwords {
-        width: 100%; /* Full width for password boxes */
-        margin: 5px 0; /* Adjust margin for spacing */
-    }
-
-    button {
-        width: 100%; /* Full width button */
-        height: 40px; /* Adjust height */
-    }
-}
-
-/* Styles for typical phone screen */
-@media (max-width: 480px) {
-    .password-generator {
-        margin: 0;
-        width: 95%;
-        height: auto;
-        max-height: none;
-        padding: 20px; /* Adjust padding for smaller screens */
-    }
-
-    h2 {
-        font-size: 20px; /* Further adjust font size */
-    }
-
-    p {
-        font-size: 0.95em; /* Adjust font size */
-    }
-
-    .passwords {
-        width: 100%; /* Full width for password boxes */
-        margin: 5px 0; /* Adjust margin for spacing */
-    }
-
-    button {
-        width: 100%; /* Full width button */
-        height: 40px; /* Adjust height */
-    }
 }
