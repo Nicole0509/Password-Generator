@@ -65,6 +65,8 @@ button{
     font-weight: bold;
     font-size: 0.8em;
     border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #info-el{
