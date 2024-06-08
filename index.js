@@ -54,11 +54,11 @@ function copyText1(){
         
         document.body.removeChild(tempTextArea)
         
-        alert(valueToCopy + "  has been copied!")
-        
+         infoEl.textContent = valueToCopy + "  has been copied!"        
     } else{
-        alert( "No password generated!")
+        infoEl.textContent =  "No password generated!"
     }
+    
     
 }
 
@@ -80,10 +80,10 @@ function copyText2(){
         
         document.body.removeChild(tempTextArea)
         
-        alert(valueToCopy + "  has been copied!")
-        
+          infoEl.textContent = valueToCopy + "  has been copied!"        
     } else{
-        alert( "No password generated!")
+        infoEl.textContent =  "No password generated!"
     }
+    
     
 }
